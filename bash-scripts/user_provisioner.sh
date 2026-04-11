@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Script Name:  user_provisioner.sh
+# Description:  Automates user creation from a text file with random passwords.
+
 if [[ $EUID -ne 0 ]]; then
    echo "This script must be run as root (use sudo)."
    exit 1
