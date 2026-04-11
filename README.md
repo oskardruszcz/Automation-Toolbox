@@ -28,14 +28,10 @@ This repository contains production-ready automation assets developed to elimina
 ## 📂 Script Descriptions
 
 ### 🔹 Bash: System Administration
-* **`backup_rotator.sh`**: Creates compressed `.tar.gz` backups of specified directories with a 7-day retention policy (auto-deletes old backups).
-* **`user_onboarding.sh`**: Automates the creation of system users from a CSV list, including directory permissions and SSH key setup.
-* **`health_check.sh`**: A lightweight diagnostic tool that monitors CPU load, RAM usage, and disk space, logging results to a central file.
+* **`user_provisioner.sh`**: A robust automation tool for bulk user creation on Linux systems. It reads a list of usernames from a text file and handles the entire onboarding process.
 
 ### 🔹 Python: Security & Integration
-* **`log_security_audit.py`**: Parses `/var/log/auth.log` to identify failed SSH login attempts and exports suspected malicious IPs to a report.
-* **`uptime_monitor.py`**: Checks the availability of specific web services and sends real-time alerts via Discord/Slack Webhooks if a service is down.
-* **`resource_watcher.py`**: Uses the `psutil` library to monitor system processes and alerts the admin if a specific process exceeds memory limits.
+
 
 ---
 
