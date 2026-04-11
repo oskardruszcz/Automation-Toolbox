@@ -29,7 +29,8 @@ This repository contains production-ready automation assets developed to elimina
 
 ### 🔹 Bash: System Administration
 * **`user_provisioner.sh`**: A robust automation tool for bulk user creation on Linux systems. It reads a list of usernames from a text file and handles the entire onboarding process.
-* **`daily_health_check.sh`**:A lightweight diagnostic tool providing a quick snapshot of the server's operational status. Designed to be run manually or as a scheduled cron job.
+* **`daily_health_check.sh`**: A lightweight diagnostic tool providing a quick snapshot of the server's operational status. Designed to be run manually or as a scheduled cron job.
+* **`auto_backuper.sh`**: A reliable backup automation tool that ensures data safety through scheduled snapshots and automated storage management.
 
 ### 🔹 Python: Security & Integration
 
