@@ -5,7 +5,6 @@ A curated collection of Bash and Python scripts designed to automate routine sys
 
 ![Bash](https://img.shields.io/badge/bash-%234EAA25.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 A collection of professional scripts designed to automate system administration, monitoring, and security auditing. This toolbox focuses on efficiency, reliability, and the "Infrastructure as Code" (IaC) approach.
 
