@@ -1,0 +1,38 @@
+#!/bin/bash
+
+# Script Name:  firewall_hardening.sh
+# Description:  Automates UFW firewall configuration for server hardening.
+
+
+if [[ $EUID -ne 0 ]]; then
+   echo "Permission denied. Please run with sudo."
+   exit 1
+fi
+
+echo "--- Initializing Firewall Hardening ---"
+
+echo "Resetting UFW..."
+ufw --force reset
+
+echo "Setting default policies (Deny Incoming / Allow Outgoing)..."
+ufw default deny incoming
+ufw default allow outgoing
+
+echo "Allowing SSH (Port 22)..."
+ufw allow 22/tcp
+
+echo "Allowing Web Traffic (Port 80 & 443)..."
+ufw allow 80/tcp
+ufw allow 443/tcp
+
+echo "Enabling Rate Limiting for SSH..."
+ufw limit 22/tcp
+
+echo "Enabling UFW..."
+ufw --force enable
+
+echo -e "\n--- Firewall Status ---"
+ufw status verbose
+
+echo -e "\n✅ Hardening complete. Only ports 22, 80, 443 are open."
+echo "⚠️  SSH is rate-limited to prevent brute-force attacks."
