@@ -21,7 +21,7 @@ A collection of professional scripts designed to automate system administration,
 ---
 
 ## 🚀 Project Overview
-This repository contains production-ready automation assets developed to eliminate repetitive operational tasks ("toil"). It showcases my ability to work with both low-level shell scripting and high-level Python logic to manage Linux environments.
+This repository contains production-ready automation assets developed to eliminate repetitive operational tasks. It showcases my ability to work with both low-level shell scripting and high-level Python logic to manage Linux environments.
 
 ---
 
