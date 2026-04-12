@@ -27,9 +27,9 @@ echo "--- Starting Backup: $DATE ---"
 tar -czf "$DEST_DIR/$BACKUP_NAME" "$SOURCE_DIR" 2>/dev/null
 
 if [ $? -eq 0 ]; then
-    echo "✅ Success: Backup saved to $DEST_DIR/$BACKUP_NAME"
+    echo "Success: Backup saved to $DEST_DIR/$BACKUP_NAME"
 else
-    echo "❌ Error: Backup failed!"
+    echo "Error: Backup failed!"
     exit 1
 fi
 
@@ -37,7 +37,7 @@ echo "Cleaning up backups older than $RETENTION_DAYS days..."
 find "$DEST_DIR" -name "backup_*.tar.gz" -type f -mtime +$RETENTION_DAYS -delete
 
 if [ $? -eq 0 ]; then
-    echo "✅ Cleanup finished."
+    echo "Cleanup finished."
 else
     echo "⚠️  Warning: Cleanup failed or no old files found."
 fi
