@@ -13,9 +13,9 @@ df -h | grep '^/dev/' | while read -r line; do
     usage=$(echo "$line" | awk '{print $5}' | sed 's/%//')
     partition=$(echo "$line" | awk '{print $6}')
     if [ "$usage" -ge "$DISK_THRESHOLD" ]; then
-        echo "⚠️  WARNING: Partition $partition is at ${usage}%!"
+        echo "WARNING: Partition $partition is at ${usage}%!"
     else
-        echo "✅ $partition: ${usage}% used."
+        echo "$partition: ${usage}% used."
     fi
 done
 
@@ -24,9 +24,9 @@ free_mem=$(free | grep Mem | awk '{print $3/$2 * 100.0}')
 free_mem_int=$(printf "%.0f" "$free_mem")
 
 if [ "$free_mem_int" -ge "$RAM_THRESHOLD" ]; then
-    echo "⚠️  WARNING: High RAM usage! Current: ${free_mem_int}%"
+    echo "WARNING: High RAM usage! Current: ${free_mem_int}%"
 else
-    echo "✅ RAM usage: ${free_mem_int}%"
+    echo "RAM usage: ${free_mem_int}%"
 fi
 
 echo -e "\n[3/4] Checking CPU Load Average..."
