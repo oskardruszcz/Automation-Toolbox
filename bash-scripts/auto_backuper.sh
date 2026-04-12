@@ -39,7 +39,7 @@ find "$DEST_DIR" -name "backup_*.tar.gz" -type f -mtime +$RETENTION_DAYS -delete
 if [ $? -eq 0 ]; then
     echo "Cleanup finished."
 else
-    echo "⚠️  Warning: Cleanup failed or no old files found."
+    echo "Warning: Cleanup failed or no old files found."
 fi
 
 echo "--- Backup Process Completed ---"
