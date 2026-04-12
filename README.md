@@ -33,7 +33,7 @@ This repository contains production-ready automation assets developed to elimina
 * **`firewall_hardening.sh`**: A security-focused script that implements a "Deny by Default" posture using the UFW framework.
 
 ### 🔹 Python: Security & Integration
-
+* **`network_port_scanner.py`**: A fast TCP port discovery tool used to audit network services and identify potential entry points on a target host.
 
 ---
 
