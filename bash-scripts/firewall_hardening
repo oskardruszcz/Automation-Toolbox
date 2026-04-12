@@ -34,5 +34,5 @@ ufw --force enable
 echo -e "\n--- Firewall Status ---"
 ufw status verbose
 
-echo -e "\n✅ Hardening complete. Only ports 22, 80, 443 are open."
-echo "⚠️  SSH is rate-limited to prevent brute-force attacks."
+echo -e "\nHardening complete. Only ports 22, 80, 443 are open."
+echo "SSH is rate-limited to prevent brute-force attacks."
