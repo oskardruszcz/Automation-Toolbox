@@ -35,6 +35,7 @@ This repository contains production-ready automation assets developed to elimina
 ### 🔹 Python: Security & Integration
 * **`network_port_scanner.py`**: A fast TCP port discovery tool used to audit network services and identify potential entry points on a target host.
 * **`ssl_expiry_checker.py`**: A proactive monitoring tool that verifies the validity and expiration dates of SSL certificates for a list of target domains.
+* **`user_audit_tool.py`**: A security compliance utility that parses the system's identity database to detect unauthorized administrative privileges and insecure account configurations.
 
 ---
 
