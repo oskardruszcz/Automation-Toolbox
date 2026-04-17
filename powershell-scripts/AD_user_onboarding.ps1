@@ -1,3 +1,6 @@
+# Script Name:  AD-user-onboarding.ps1
+# Description:  Automates bulk Active Directory user creation and group assignment from a CSV file.
+
 $CSVPath = "C:\Scripts\new_users.csv"
 $Domain = "it.local"
 $BaseOU = "OU=Employees,DC=it,DC=local"
