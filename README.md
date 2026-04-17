@@ -40,6 +40,7 @@ This repository contains production-ready automation assets developed to elimina
 
 ### 🔹 PowerShell:
 * **`AD_user_onboarding.ps1`**: A PowerShell utility designed for bulk user provisioning in Active Directory environments. It streamlines the onboarding process by automating account creation.
+* **`old_file_archiver.ps1`**: A storage management utility that automates the lifecycle of stale data by identifying, moving, and compressing old files.
 
 ---
 
