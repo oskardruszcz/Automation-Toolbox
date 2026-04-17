@@ -4,8 +4,6 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
 
-A collection of scripts designed to automate system administration, monitoring, and security auditing. This toolbox focuses on efficiency and reliability.
-
 ---
 
 ## 📋 Table of Contents
