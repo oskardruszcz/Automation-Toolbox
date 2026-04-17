@@ -5,6 +5,7 @@ A curated collection of Bash and Python scripts designed to automate routine sys
 
 ![Bash](https://img.shields.io/badge/bash-%234EAA25.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
 
 A collection of professional scripts designed to automate system administration, monitoring, and security auditing. This toolbox focuses on efficiency, reliability, and the "Infrastructure as Code" (IaC) approach.
 
@@ -26,16 +27,19 @@ This repository contains production-ready automation assets developed to elimina
 
 ## 📂 Script Descriptions
 
-### 🔹 Bash: System Administration
-* **`user_provisioner.sh`**: A robust automation tool for bulk user creation on Linux systems. It reads a list of usernames from a text file and handles the entire onboarding process.
+### 🔹 Bash:
+* **`user_provisioner.sh`**: An automation tool for bulk user creation on Linux systems. It reads a list of usernames from a text file and handles the entire onboarding process.
 * **`daily_health_check.sh`**: A lightweight diagnostic tool providing a quick snapshot of the server's operational status. Designed to be run manually or as a scheduled cron job.
 * **`auto_backuper.sh`**: A reliable backup automation tool that ensures data safety through scheduled snapshots and automated storage management.
 * **`firewall_hardening.sh`**: A security-focused script that implements a "Deny by Default" posture using the UFW framework.
 
-### 🔹 Python: Security & Integration
+### 🔹 Python:
 * **`network_port_scanner.py`**: A fast TCP port discovery tool used to audit network services and identify potential entry points on a target host.
 * **`ssl_expiry_checker.py`**: A proactive monitoring tool that verifies the validity and expiration dates of SSL certificates for a list of target domains.
 * **`user_audit_tool.py`**: A security compliance utility that parses the system's identity database to detect unauthorized administrative privileges and insecure account configurations.
+
+### 🔹 PowerShell:
+* **`AD_user_onboarding.ps1`**: A PowerShell utility designed for bulk user provisioning in Active Directory environments. It streamlines the onboarding process by automating account creation.
 
 ---
 
