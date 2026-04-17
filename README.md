@@ -1,27 +1,22 @@
-# Automation-Toolbox
-A curated collection of Bash and Python scripts designed to automate routine system administration tasks, enhance server security, and streamline infrastructure management.
-
-# 🛠️ IT Automation & Ops Toolbox
+# 🛠️ IT Automation Toolbox
 
 ![Bash](https://img.shields.io/badge/bash-%234EAA25.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
 
-A collection of professional scripts designed to automate system administration, monitoring, and security auditing. This toolbox focuses on efficiency, reliability, and the "Infrastructure as Code" (IaC) approach.
+A collection of scripts designed to automate system administration, monitoring, and security auditing. This toolbox focuses on efficiency and reliability.
 
 ---
 
 ## 📋 Table of Contents
 - [Project Overview](#-project-overview)
 - [Script Descriptions](#-script-descriptions)
-- [Prerequisites](#-prerequisites)
 - [Installation & Usage](#-installation--usage)
-- [Security Best Practices](#-security-best-practices)
 
 ---
 
 ## 🚀 Project Overview
-This repository contains production-ready automation assets developed to eliminate repetitive operational tasks. It showcases my ability to work with both low-level shell scripting and high-level Python logic to manage Linux environments.
+A curated collection of Bash, Python, and PowerShell scripts designed to automate routine system administration tasks, enhance cross-platform security, and streamline infrastructure management across Linux and Windows environments.
 
 ---
 
